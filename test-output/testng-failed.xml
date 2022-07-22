@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Regression(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.store.testcases.OrderPageTest">
+        <methods>
+          <include name="loadConfig"/>
+          <include name="verifyTotalPrice" invocation-numbers="0"/>
+          <include name="afterSuite"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.store.testcases.OrderPageTest -->
+      <class name="com.store.testcases.EndToEndTest">
+        <methods>
+          <include name="loadConfig"/>
+          <include name="endToEndTest" invocation-numbers="0"/>
+          <include name="afterSuite"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.store.testcases.EndToEndTest -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Suite] -->
