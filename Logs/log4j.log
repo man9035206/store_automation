@@ -265,3 +265,5 @@
 2022-07-22 17:04:54 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
 2022-07-22 17:04:54 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
 2022-07-22 17:04:54 DEBUG cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/home/administrator/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2022-07-23 18:01:50 INFO  Log:11 - =====================================verifyLogo TEST START=========================================
+2022-07-23 18:01:50 INFO  Log:22 - Validating title
